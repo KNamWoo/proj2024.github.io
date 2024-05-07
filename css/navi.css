@@ -3,6 +3,16 @@
     height: 95vh;
 }
 
-#nav1{text-align:center}
-#nav1>ul{display:inline-block}
-#nav1>ul li{float:left;padding:0 30px;line-height:80px}
+.nav1{
+    text-align:center
+}
+
+.nav1>ul{
+    display:inline-block
+}
+
+.nav1>ul li{
+    float:left;
+    padding:0 30px;
+    line-height:80px
+}
