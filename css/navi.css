@@ -1,18 +1,38 @@
+body{
+    margin: 0;
+    background-color: darkblue;
+}
+
 .mapcss{
     width: 100%;
     height: 95vh;
 }
 
-#nav1{
-    text-align:center
+.navbar{
+    display: flex;
+    justify-content: space-between;/*박스 사이 빈 공간 생성*/
+    align-items: center;/*박스들을 정렬*/
+    background-color: darkblue;/*배경색 지정*/
+    padding: 8px 12px;
 }
 
-#nav1>ul{
-    display:inline-block
+.navbar_logo i{
+    color: green;
+    padding-left: 0;
 }
 
-#nav1>ul>li{
-    float:left;
-    padding:0 30px;
-    line-height:80px
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_menu{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_menu li{
+    padding: 8px 30px;
 }

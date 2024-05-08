@@ -10,10 +10,25 @@
         <script src="../js/navi.js"></script>
     </head>
     <body>
-        <nav id="nav1">
-            <ul class="ul1">
-                <li class="li1"><a href="#">menu1</a></li>
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <i class="fas fa-blog"></i>
+                <a href="">AXCE Coding</a>
+            </div>
+
+            <ul class="navbar_menu">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">F5</a></li>
             </ul>
+
+            <ul class="navbar_icons">
+                <li><i class="fab fa-google"></i></li>
+                <li><i class="fab fa-slack"></i></li>
+            </ul>
+
+            <a href="#" class="navbar_toggleBtn">
+                <i class="fas fa-hamburger"></i>
+            </a>
         </nav>
         <button class="main_btn" onclick="go_main()">메인으로 돌아가기</button>
         <div id="map" class="mapcss"></div>
