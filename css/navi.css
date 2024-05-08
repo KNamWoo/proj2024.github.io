@@ -13,7 +13,7 @@ body{
     justify-content: space-between;/*박스 사이 빈 공간 생성*/
     align-items: center;/*박스들을 정렬*/
     background-color: darkblue;/*배경색 지정*/
-    padding: 8px 12px;
+    padding: 5px 12px;
 }
 
 .navbar_logo i{
@@ -35,4 +35,9 @@ a{
 
 .navbar_menu li{
     padding: 8px 30px;
+}
+
+.navbar_menu li:hover{
+    background-color: yellowgreen;
+    border-radius: 3px;
 }
