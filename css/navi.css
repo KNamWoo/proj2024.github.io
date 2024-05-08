@@ -16,7 +16,7 @@ body{
     padding: 5px 12px;
 }
 
-.navbar_logo{
+.navbar_logo a{
     font-weight: bold;
     color: orange;
 }
