@@ -7,11 +7,11 @@
     text-align:center
 }
 
-.nav1>ul{
+.ul1{
     display:inline-block
 }
 
-.nav1>ul li{
+.li1{
     float:left;
     padding:0 30px;
     line-height:80px
