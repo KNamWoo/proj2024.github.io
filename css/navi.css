@@ -42,7 +42,3 @@ a{
     background-color: yellowgreen;
     border-radius: 3px;
 }
-
-.navbar_menu li a:hover{
-    color: gray;
-}
