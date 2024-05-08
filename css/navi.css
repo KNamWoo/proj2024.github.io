@@ -16,14 +16,9 @@ body{
     padding: 5px 12px;
 }
 
-.navbar_logo i{
-    color: green;
+.navbar_logo a{
+    color: red;
     padding-left: 0;
-}
-
-a{
-    text-decoration: none;
-    color: white;
 }
 
 .navbar_menu{
@@ -43,6 +38,11 @@ a{
     border-radius: 3px;
 }
 
+.navbar_menu li a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar_menu li a:hover{
-    color: pink;
+    color: black;
 }
