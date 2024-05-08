@@ -16,7 +16,7 @@ body{
     padding: 5px 12px;
 }
 
-.navbar_logo a{
+a{
     color: red;
     padding-left: 0;
 }
