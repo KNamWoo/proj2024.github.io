@@ -17,7 +17,7 @@ body{
 }
 
 .navbar_logo{
-    font-style: bold;
+    font: bold;
     color: gray;
 }
 
