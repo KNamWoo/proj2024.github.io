@@ -3,15 +3,15 @@
     height: 95vh;
 }
 
-.nav1{
+#nav1{
     text-align:center
 }
 
-.ul1{
+#nav1>ul{
     display:inline-block
 }
 
-.li1{
+#nav1>ul>li{
     float:left;
     padding:0 30px;
     line-height:80px
