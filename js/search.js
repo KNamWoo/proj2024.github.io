@@ -1,1 +1,0 @@
-location.href="../html/navi.html"+address;
