@@ -46,7 +46,7 @@ function searchCoordinateToAddress(latlng){
     });
 }
 
-/*function searchAddressToCoordinate(address) {
+function searchAddressToCoordinate(address) {
     naver.maps.Service.geocode({
       query: address
     }, function(status, response) {
@@ -87,9 +87,9 @@ function searchCoordinateToAddress(latlng){
       map.setCenter(point);
       infoWindow.open(map, point);
     });
-}*/
+}
   
-/*function initGeocoder() {
+function initGeocoder() {
     if (!map.isStyleMapReady) {
       return;
     }
@@ -113,7 +113,7 @@ function searchCoordinateToAddress(latlng){
     });
   
     searchAddressToCoordinate('정자동 178-1');
-}*/
+}
   
 naver.maps.onJSContentLoaded = initGeocoder;
 naver.maps.Event.once(map, 'init_stylemap', initGeocoder);
