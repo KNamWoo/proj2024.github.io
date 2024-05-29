@@ -2,9 +2,9 @@ var infoWindow = new naver.maps.infoWindow({
     anchorSkew: true
 });
 
-//map.setCursor('pointer');
+map.setCursor('pointer');
 
-/*function searchCoordinateToAddress(latlng){
+function searchCoordinateToAddress(latlng){
     infoWindow.close();
     naver.maps.Service.reverseGeocode({
         coords: latlng,
@@ -44,7 +44,7 @@ var infoWindow = new naver.maps.infoWindow({
         
         infoWindow.open(map, latlng);
     });
-}*/
+}
 
 /*function searchAddressToCoordinate(address) {
     naver.maps.Service.geocode({
