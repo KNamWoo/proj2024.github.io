@@ -16,6 +16,6 @@
     </head>
     <body>
         <h1>Submitted</h1>
-        <p>주소는 : <?php echo $address ?> 입니다.</p>
+        <p>address is <?php echo $address ?>.</p>
     </body>
 </html>
