@@ -14,7 +14,7 @@ body{
     align-items: center;/*박스들을 정렬*/
     background-color: darkblue;/*배경색 지정*/
     padding: 5px 12px;
-    height: 50px;
+    height: 5px;
 }
 
 .navbar_logo a{
