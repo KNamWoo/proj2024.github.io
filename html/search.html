@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="../js/search.js" defer></script>
+    <title>주소검색</title>
 </head>
 <body>
-    <a class="button" href="https://knamwoo.github.io/proj2024.github.io/html/navi.html">내비 확인하기</a>
-    <br>
-    <form action="./get.html" method="post">
-        <input type="text" name="address">
-        <br>
-        <input type = "submit">
+    <form method="post" action="search.php">
+        <p><label>Input Address : <input type="text" name="address"></label></p>
+        <p><input type="submit" value="Submit"></p>
     </form>
+    <a class="button" href="https://knamwoo.github.io/proj2024.github.io/html/navi.html">내비 확인하기</a>
 </body>
 </html>
